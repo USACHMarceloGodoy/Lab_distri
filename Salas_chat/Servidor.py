@@ -78,6 +78,7 @@ def handle_client(client_socket, address):
             connections[room_key] = [
                 conn for conn in connections[room_key] if conn[0] != client_socket
             ]
+            #Mensaje del usuario que se ha desconectado
             broadcast(f"{username} ha salido del stream '{stream_name}' de {streamer_name}.\n", room_key)
         print(f"Conexión cerrada: {address}")
 
