@@ -24,9 +24,9 @@ Las explicaciones de cada componente están en el informe.
 # Instrucciones de uso
 1. Se debe instalar una aplicación para grabación y transmisión en vivo como: OBS, Streamlabs, XSplit, Vmix, entre otros. En este caso se utiliza OBS, por lo que se recomienda hacer lo mismo (ver [Web oficial OBS](https://obsproject.com/es)).
 
-2. Una vez instalado OBS, se debe crear una escena en el panel inferior, haciendo click en el ícono "+" y dándole un nombre a la escena.
-![Agregar escena](./add_scene.png)
-![Nombre escena](./scene_name.png)
+2. Una vez instalado OBS, se debe crear una escena en el panel inferior, haciendo click en el ícono "+" y dándole un nombre a la escena.  
+![Agregar escena](./add_scene.png)  
+![Nombre escena](./scene_name.png)  
 
 
 3. Luego, se debe agregar un origen de video, en el mismo panel inferior, haciendo click en el ícono "+" y seleccionando un origen. En este caso se selecciona "Display capture", se da un nombre al origen y se configura la pantalla a mostrar.  
