@@ -38,9 +38,9 @@ Las explicaciones de cada componente están en el informe.
 
 4. Ahora, hay que ir a "File" > "Settings", y en la opción "Stream" elegir "Service" = "Custom", y en "Server" ingresar la url del servidor RTMP que se levantó con docker: rtmp://localhost:1935/app. Finalmente, en Stream Key ingresar: "stream1". Cabe destacar que el stream key, de momento, está hardcodeado en el frontend por lo cual es importante siempre poner esa stream key en específico, sin embargo, el servidor sigue aceptando múltiples conexiones rtmp, desde distintos transmisores. 
 ![Opciones OBS](./settings.png)
-![Configuración Stream](./stream-settings.png)
+![Configuración Stream](./stream_settings.png)
 
-5. Una vez configurada la transmisión, hay que apretar el botón "Start Streaming", en el panel inferior de la derecha. 
+5. Una vez configurada la transmisión, hay que apretar el botón "Start Streaming", en el panefl inferior de la derecha. 
 ![Controles stream](controls.png)
 
 6. Pasando al frontend, se debe acceder mediante la url http://localhost:5173 y en la esquina superior izquierda, se debe ingresar el nombre de usuario (solo hace falta escribirlo).
