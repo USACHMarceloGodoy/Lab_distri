@@ -7,10 +7,10 @@
 # Descripción
 Proyecto desarrollado, como prueba de concepto, para la asignatura Sistemas Distribuidos de la Universidad de Santiago de Chile, a partir de una arquitectura de microservicios. 
 Las historias de usuario desarrolladas, que abarcan las principales funcionalidades de una plataforma de streaming que son el streaming de video y el chat, son:
-HU-1: Como streamer, quiero poder iniciar una transmisión de video en vivo para que otros usuarios puedan ver mi contenido en tiempo real.
-HU-2: Como viewer, quiero poder visualizar una transmisión de video en vivo para disfrutar del contenido en tiempo real.
-HU-3: Como viewer, quiero poder enviar y recibir mensajes en un chat en vivo para interactuar con otros viewers durante la transmisión.
-HU-4: Como viewer, quiero poder acceder a los mensajes antiguos del chat para ver los comentarios enviados cuando no estaba conectado.
+- HU-1: Como streamer, quiero poder iniciar una transmisión de video en vivo para que otros usuarios puedan ver mi contenido en tiempo real.
+- HU-2: Como viewer, quiero poder visualizar una transmisión de video en vivo para disfrutar del contenido en tiempo real.
+- HU-3: Como viewer, quiero poder enviar y recibir mensajes en un chat en vivo para interactuar con otros viewers durante la transmisión.
+- HU-4: Como viewer, quiero poder acceder a los mensajes antiguos del chat para ver los comentarios enviados cuando no estaba conectado.
 
 Las explicaciones de cada componente están en el informe.
 
