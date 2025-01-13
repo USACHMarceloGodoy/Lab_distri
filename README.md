@@ -29,19 +29,19 @@ Las explicaciones de cada componente están en el informe.
 ![Nombre escena](./scene_name.png)
 
 
-3. Luego, se debe agregar un origen de video, en el mismo panel inferior, haciendo click en el ícono "+" y seleccionando un origen. En este caso se selecciona "Display capture", se da un nombre al origen y se configura la pantalla a mostrar.
-![Agregar origen](./add_source.png)
-![Opciones origen](./add_source_options.png)
-![Nombre origen](./source_name.png)
-![Nombre origen](./display_properties.png)
+3. Luego, se debe agregar un origen de video, en el mismo panel inferior, haciendo click en el ícono "+" y seleccionando un origen. En este caso se selecciona "Display capture", se da un nombre al origen y se configura la pantalla a mostrar.  
+![Agregar origen](./add_source.png)  
+![Opciones origen](./add_source_options.png)  
+![Nombre origen](./source_name.png)  
+![Nombre origen](./display_properties.png)  
 
 
-4. Ahora, hay que ir a "File" > "Settings", y en la opción "Stream" elegir "Service" = "Custom", y en "Server" ingresar la url del servidor RTMP que se levantó con docker: rtmp://localhost:1935/app. Finalmente, en Stream Key ingresar: "stream1". Cabe destacar que el stream key, de momento, está hardcodeado en el frontend por lo cual es importante siempre poner esa stream key en específico, sin embargo, el servidor sigue aceptando múltiples conexiones rtmp, desde distintos transmisores. 
-![Opciones OBS](./settings.png)
-![Configuración Stream](./stream_settings.png)
+4. Ahora, hay que ir a "File" > "Settings", y en la opción "Stream" elegir "Service" = "Custom", y en "Server" ingresar la url del servidor RTMP que se levantó con docker: rtmp://localhost:1935/app. Finalmente, en Stream Key ingresar: "stream1". Cabe destacar que el stream key, de momento, está hardcodeado en el frontend por lo cual es importante siempre poner esa stream key en específico, sin embargo, el servidor sigue aceptando múltiples conexiones rtmp, desde distintos transmisores.  
+![Opciones OBS](./settings.png)  
+![Configuración Stream](./stream_settings.png)  
 
-5. Una vez configurada la transmisión, hay que apretar el botón "Start Streaming", en el panefl inferior de la derecha. 
-![Controles stream](controls.png)
+5. Una vez configurada la transmisión, hay que apretar el botón "Start Streaming", en el panefl inferior de la derecha.  
+![Controles stream](controls.png)  
 
 6. Pasando al frontend, se debe acceder mediante la url http://localhost:5173 y en la esquina superior izquierda, se debe ingresar el nombre de usuario (solo hace falta escribirlo).
 
@@ -49,11 +49,11 @@ Las explicaciones de cada componente están en el informe.
 
 8. Para enviar mensajes al chat tan ingresar el mensaje en el apartado de chat donde dice "Type your message", y luego presionar la tecla Enter o simplemente hacer click en "Send".
 
-9. Se puede replicar la pestaña para ingresar un usuario diferente y replicar el chat, nótese que se reciben los mensajes antiguos a pesar de no haber estado conectado.
+9. Se puede replicar la pestaña para ingresar un usuario diferente y replicar el chat, nótese que se reciben los mensajes antiguos a pesar de no haber estado conectado.  
 
-![Frontend usuario 1](frontend.png)
+![Frontend usuario 1](frontend.png)  
 
-![Frontend usuario 2](frontend2.png)
+![Frontend usuario 2](frontend2.png)  
 
 # Tecnologías y lenguajes utilizados para el desarrollo y despliegue
 - Docker 24.0.6
