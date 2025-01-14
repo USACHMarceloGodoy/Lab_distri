@@ -6,4 +6,4 @@ COPY ./rtmp-server /rtmp-server
 
 EXPOSE 1935
 
-CMD ["/rtmp-server"]
+CMD ["./rtmp-server"]

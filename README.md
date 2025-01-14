@@ -12,6 +12,11 @@ Las historias de usuario desarrolladas, que abarcan las principales funcionalida
 - HU-3: Como viewer, quiero poder enviar y recibir mensajes en un chat en vivo para interactuar con otros viewers durante la transmisión.
 - HU-4: Como viewer, quiero poder acceder a los mensajes antiguos del chat para ver los comentarios enviados cuando no estaba conectado.
 
+Funcionalidades de extensión:
+1. El streamer recibe un stream key de manera dinámica.
+2. Los viewers pueden acceder a los streams según el nombre de usuario del streamer.
+3. Los viewers pueden ver el estado de un stream.
+
 Las explicaciones de cada componente están en el informe.
 
 # Instrucciones de despliegue

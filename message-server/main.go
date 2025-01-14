@@ -156,7 +156,8 @@ func main() {
 
 	// Configuración Kafka
 	config := sarama.NewConfig()
-	config.Consumer.Group.Rebalance.Strategy = sarama.BalanceStrategyRoundRobin
+	config.Consumer.Group.Rebalance.Strategy = sarama.NewBalanceStrategyRange()
+	config.Consumer.Offsets.Initial = sarama.OffsetOldest
 	config.Version = sarama.V2_5_0_0
 	brokers := []string{"kafka:9093"}
 	topic := "chat-messages"
